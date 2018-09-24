@@ -1,21 +1,4 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @mohammadKamranAlam Sign out
-10
-22 5 Ethbet/ethbet
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
-ethbet/contracts/EBETtokenSale.sol
-6db1670  on 15 Sep 2017
-@Ethbet Ethbet Add EBETTokenSale.sol
-    
-265 lines (230 sloc)  12.5 KB
-pragma solidity ^0.4.13;
+ pragma solidity ^0.4.13;
 // **-----------------------------------------------
 // EthBet.io Token sale contract
 // Final revision 16a
@@ -279,16 +262,3 @@ contract EBETCrowdsale is owned, safeMath {
       Refund(msg.sender, ethRefund);
     }
 }
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Press h to open a hovercard with more details.
